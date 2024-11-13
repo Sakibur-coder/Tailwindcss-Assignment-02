@@ -20,8 +20,8 @@ module.exports = {
           'poppins': '"Poppins", sans-serif'
         },
         backgroundImage:{
-          'hero-bg': 'url(/images/hero-cover.png)'
-        }
+          'hero': 'url(/images/hero-cover.png)'
+        },
       },
     },
   },

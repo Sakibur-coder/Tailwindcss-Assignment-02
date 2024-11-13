@@ -30,9 +30,9 @@
         <nav class="w-full px-4 md:px-8 py-2 md:py-3 flex 
                     justify-between items-center relative">
             <!-- Mobile screen Navbar -->
-            <ul class="absolute top-12 left-0 
+            <ul class="absolute top-14 left-0 
                        w-full h-screen bg-white 
-                       dark:bg-sec-dark-bg  p-4 space-y-5 hidden" 
+                       dark:bg-sec-dark-bg p-4 space-y-5 hidden" 
                         id="navItem">
                 
                 <li><a class="nav-item2" href="#">Home</a></li>
@@ -44,24 +44,24 @@
             <div class="flex 
                         items-center 
                         gap-3">
-                <i class="fa-solid fa-bars text-3xl text-gray-500 dark:text-white cursor-pointer md:hidden" id="menuBar"></i>
+                <i class="fa-solid fa-bars text-3xl text-gray-500 cursor-pointer inline-block md:hidden" id="menuBar"></i>
 
                 <a href="#"><img class="w-3/5 md:w-3/4 dark:bg-white pr-1 rounded-full" src="images/creative-logo.png" alt="Logo"></a>
             </div>
 
             <!-- Medium to big screen navbar -->
             <ul class="gap-5 lg:gap-8 justify-center  items-center hidden md:flex">
-                <li><a class="nav-item" href="#">Home</a></li>
-                <li><a class="nav-item text-btn-color" href="#">About Us</a></li>
-                <li><a class="nav-item" href="#">Upskill</a></li>
-                <li><a class="nav-item" href="#">Contact Us</a></li>
+                <li><a class=" hover:underline font-medium" href="#">Home</a></li>
+                <li><a class="text-main hover:underline font-medium" href="#">About Us</a></li>
+                <li><a class=" hover:underline font-medium" href="#">Upskill</a></li>
+                <li><a class="hover:underline font-medium" href="#">Contact Us</a></li>
             </ul>
 
             <div class="flex 
                         justify-center 
                         items-center 
                         gap-2 md:gap-4">
-                <button class="btn-primary" type="button">Register Interest</button>
+                <button class="text-white bg-main py-1 md:py-2 px-2 md:px-4 rounded-md outline-none border-2 border-main hover:bg-transparent hover:text-main hover:border-main transition-all duration-300 text-nowrap" type="button">Register Interest</button>
 
                 <i id="moon" class="fa-solid fa-moon text-3xl md:text-4xl cursor-pointer text-gray-500 dark:text-white"></i>
             </div>
@@ -69,8 +69,7 @@
     </header>
     <!-- header section ends here -->
 
-
-        
+    
 
     <!-- custom scrip link -->
     <script type="module" src="script.js"></script>

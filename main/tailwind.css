@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    .rounded-edge {
+        aspect-ratio: 3/2;
+        clip-path: ellipse(100% 100% at 50% 0);
+  }
+}
